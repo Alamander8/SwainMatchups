@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a QA Engineer, Junior Developer, and Grandmaster Swain Main in NA (Peak 650 LP)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I attempt to work towards Challenger every season. Outside of just Swain, I play a lot of mages pretty competitively, including Taliyah, Azir, Cassiopeia, Lissandra etc. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My OP.GG is here:
 
-
-[jekyll-organization]: https://github.com/jekyll
+https://na.op.gg/summoners/na/Alamander
