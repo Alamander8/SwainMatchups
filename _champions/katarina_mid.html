@@ -5,26 +5,100 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
 <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #777;
+  padding: 20px;
+  text-align: left;
+  font-size: 35px;
+  color: rgb(88, 2, 2);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu? */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 500px; 
+}
+
+
+/* I have no idea what this is doing , but places keep recommending it. */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens - Will need help understanding SCRIPT @Todd*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>
+</head>
+
 <script src=""></script>
 <body>
 
-<img src="assets/AlamanderTV.png" alt="LA" style="width:15%">
+<header><img src="assets/AlamanderTV.png" alt="LA" style="width:15%"></header>    
 
 
+<section>
+    <nav>
+      <ul>
+        <li><a href="#">Example Link</a></li>
+        <li><a href="#">Example Link 2</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Katarina Mid</h1>
+      <img src="assets/kat_mid_runes.jpg" alt="kat_mid_runes" class ="responsive" style="width:40%">
+      <p>Matchup Description</p>
+      <p>Runes here are standard Lorem Ipsum Stuff blah blah blah blah</p>
+      <p>Should each of these P bracket fields exist for a new line? Does it wrap? The world may never know and I certainly am not going to type long enough to actually find out this is going to be super hard to read my IDE as well. I kinda hate it.</p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>Footer Test. Idk what I want to do down here. This should exist somewhere and be imported.</p>
+  </footer>
 
-<div class="">
- <h1>This should inherit champion name selected</h1>
- <p></p>
- <p><div class="w3-card" style="width:200px">
-    <img src="assets/katarina_mid.jpg" style="width:350%">
-    <div class="w3-container w3-center">
-      <p class="w3-xlarge">Other ways you can play this matchup include....</p>
-      <p>A link to a video that would help! 
-        <div>https://www.youtube.com/watch?v=VNepf7iOfEo</div></p>
-    </div>
-  </div></p>
-</div>
+
 
 </body>
 </html>
