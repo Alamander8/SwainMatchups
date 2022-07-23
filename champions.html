@@ -2,14 +2,14 @@
 layout: default
 title: Champions
 ---
-<h1>Matchup: champions.champion_name </h1>
+<h1>Matchup List</h1>
 
 <ul>
-  {% for champion_name in _champions %}
+  {% for champion in site.champions %}
     <li>
-      <h2>{{ champions.champion_name }}</h2>
-      <h3>{{ champions.season }}</h3>
-      <p>{{ champions.content | markdownify }}</p>
+      <h2>{{ champion.champion_name }}</h2>
+      <h3>{{ champion.season }}</h3>
+      <p>{{ champion.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>

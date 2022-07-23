@@ -37,10 +37,11 @@ collections:
     permalink: /:collection/:path
 
 
+
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
   
 
